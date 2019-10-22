@@ -3,7 +3,13 @@ package inicio;
 public class Bucles {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+		System.out.println("Numeos del 0 al 100");
+		int numero=0;
+		
+		for(int i=1;i<=101;i++){
+			System.out.println(numero++);
+		}
 
 	}
 
